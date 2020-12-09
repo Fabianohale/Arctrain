@@ -154,6 +154,18 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Bike_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Bike Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Brazils</relationshipLabel>
+        <relationshipName>Brazils</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Bike__c</fullName>
         <externalId>false</externalId>
         <label>Bike</label>
